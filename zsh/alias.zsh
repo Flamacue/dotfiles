@@ -1,6 +1,6 @@
 # Browser
-alias firefox="firefox </dev/null &>/dev/null"                                                                                                                                                                     
-alias chromium="chromium </dev/null &>/dev/null"
+alias firefox="firefox </dev/null &>/dev/null &"
+alias chromium="chromium </dev/null &>/dev/null &"
 
 # Kubernetes
 alias k=kubectl
