@@ -8,6 +8,7 @@ Plug 'Yggdroot/indentLine'
 Plug 'tpope/vim-surround'
 Plug 'stephpy/vim-yaml'
 Plug 'psf/black'
+Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
 syntax on
