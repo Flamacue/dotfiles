@@ -46,12 +46,15 @@ let g:rustfmt_autosave = 1
 let g:go_highlight_types = 1
 let g:go_highlight_fields = 1
 let g:go_highlight_functions = 1
-let g:go_highlight_methods= 1
+let g:go_highlight_methods = 1
+let g:go_def_mapping_enabled = 1
+let g:go_def_mode = 'gopls'
 let g:go_fmt_command = "goimports"
 
 autocmd FileType go nmap <leader>t <Plug>(go-test)
 autocmd FileType go nmap <leader>b <Plug>(go-build)
 autocmd FileType go nmap <leader>c <Plug>(go-coverage-toggle)
+autocmd FileType go set tabstop=4
 
 " Python
 autocmd BufWritePre *.py execute ':Black'
