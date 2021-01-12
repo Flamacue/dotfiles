@@ -58,6 +58,10 @@ autocmd BufWritePre *.py execute ':Black'
 " Yaml
 autocmd FileType yaml set foldmethod=indent
 
+" Terraform
+let g:terraform_fmt_on_save = 1
+let g:terraform_align = 1
+
 " Indents
 let g:indentLine_char = "|"
 
