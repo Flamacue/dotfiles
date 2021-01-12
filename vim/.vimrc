@@ -25,6 +25,7 @@ set splitbelow
 set splitright
 set autoread
 set autowrite
+set nofixendofline
 set backspace=indent,eol,start
 set foldmethod=syntax
 set foldlevel=3
