@@ -54,7 +54,7 @@ let g:go_fmt_command = "goimports"
 autocmd FileType go nmap <leader>t <Plug>(go-test)
 autocmd FileType go nmap <leader>b <Plug>(go-build)
 autocmd FileType go nmap <leader>c <Plug>(go-coverage-toggle)
-autocmd FileType go set tabstop=4
+autocmd FileType go set tabstop=4 shiftwidth=4
 
 " Python
 autocmd BufWritePre *.py execute ':Black'
