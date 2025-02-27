@@ -38,6 +38,7 @@ nnoremap <C-H> <C-W><C-H>
 nnoremap <C-n> :cnext<CR>
 nnoremap <C-m> :cprevious<CR>
 nnoremap <leader>j :call NumberToggle()<CR>
+vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
 
 " Rust
 let g:rustfmt_autosave = 1
@@ -80,3 +81,4 @@ function! NumberToggle()
 		set nu
 	endif
 endfunction
+set regexpengine=0
