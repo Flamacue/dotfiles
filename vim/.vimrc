@@ -82,3 +82,4 @@ function! NumberToggle()
 	endif
 endfunction
 set regexpengine=0
+set tags+=./tags;$HOME
