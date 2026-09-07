@@ -5,3 +5,6 @@ export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 
 # Editor
 export EDITOR=vim
+
+export HOMEBREW_NO_AUTO_UPDATE=1
+

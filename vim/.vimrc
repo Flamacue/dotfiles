@@ -85,6 +85,7 @@ function! NumberToggle()
 		set nu
 	endif
 endfunction
+
 set regexpengine=0
 set tags+=./tags;$HOME
 
